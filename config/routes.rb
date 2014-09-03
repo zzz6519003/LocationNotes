@@ -13,6 +13,7 @@ Rails.application.routes.draw do
 
 
   devise_for :users
+  resources :users
 
   # TODO wired if i put this before   resources :notes it's bugged
   get 'Tags/:tag', to: 'notes#index', as: :tag
