@@ -12,4 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require leaflet
  */
+
+#map { height: 180px; }
