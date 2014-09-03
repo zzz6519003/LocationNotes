@@ -5,7 +5,8 @@ $( document ).ready(function() {
 	var map = L.map('map').setView([51.505, -0.09], 13);
 	
 	function onMapClick(e) {
-	    alert("You clicked the map at " + e.latlng);
+        document.getElementById("mock_object_name").value = e.latlng.latitude;
+//	    alert("You clicked the map at " + e.latlng);
 	}
 
 	map.on('click', onMapClick);
