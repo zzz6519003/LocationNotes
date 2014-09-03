@@ -1,4 +1,6 @@
 <h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
 <%= link_to "About", "/static_pages/about" %>
 <%= link_to "Contact", "/static_pages/contact" %>
+<% if current_user %>
+    <%= link_to "Notes", notes_path %>
+<% end %>
