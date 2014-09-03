@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+
   get 'static_pages/home'
 
   get 'static_pages/about'
@@ -7,7 +9,12 @@ Rails.application.routes.draw do
 
   resources :notes
 
+
   devise_for :users
+
+  # TODO wired if i put this before   resources :notes it's bugged
+  get 'Tags/:tag', to: 'notes#index', as: :tag
+
   resources :mock_objects
 
   # The priority is based upon order of creation: first created -> highest priority.

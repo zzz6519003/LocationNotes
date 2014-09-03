@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LocationNotes.iml" afterPath="$PROJECT_DIR$/.idea/LocationNotes.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/notes/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/notes/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/notes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/notes/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/note.rb" afterPath="$PROJECT_DIR$/app/models/note.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/notes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/notes_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LocationNotes.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409729171411" ignored="false" />
     <file path="/mock_objects.js" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409733690689" ignored="false" />
-    <file path="/note.rb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409734116450" ignored="false" />
+    <file path="/note.rb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409738446345" ignored="false" />
     <file path="/user.rb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409734126134" ignored="false" />
-    <file path="/notes_controller.rb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409735085197" ignored="false" />
-    <file path="/index.html.erb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409736493953" ignored="false" />
+    <file path="/notes_controller.rb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409739212043" ignored="false" />
+    <file path="/index.html.erb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409739150905" ignored="false" />
     <file path="/_form.html.erb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409735046358" ignored="false" />
     <file path="/notes.js" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409736349268" ignored="false" />
     <file path="/new.html.erb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409736587822" ignored="false" />
-    <file path="/routes.rb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409736886299" ignored="false" />
+    <file path="/routes.rb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409739524435" ignored="false" />
     <file path="/home.html.erb" changelist="e997c24a-cc66-4f7b-bc36-4a14d75da6e4" time="1409736972647" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,25 +49,43 @@
       <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="25" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
+            <state line="63" column="25" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="40" selection-end="57" vertical-scroll-proportion="0.0">
+            <state line="15" column="11" selection-start="240" selection-end="240" vertical-scroll-proportion="0.4047976">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="141" selection-end="141" vertical-scroll-proportion="0.08144797">
+            <state line="4" column="50" selection-start="177" selection-end="177" vertical-scroll-proportion="-2.6666667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="note.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/note.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notes_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/notes_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="43" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -66,7 +94,16 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/notes/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="576" selection-end="576" vertical-scroll-proportion="-14.666667">
+            <state line="20" column="30" selection-start="592" selection-end="731" vertical-scroll-proportion="-13.333333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/notes/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="34" selection-start="461" selection-end="461" vertical-scroll-proportion="-12.666667">
               <folding />
             </state>
           </provider>
@@ -99,17 +136,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/note.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/views/notes/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/notes_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/mock_objects.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/notes.js" />
-        <option value="$PROJECT_DIR$/app/views/notes/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/notes/new.html.erb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/note.rb" />
+        <option value="$PROJECT_DIR$/app/views/notes/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/notes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/notes/_form.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -589,20 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/notes/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="576" selection-end="576" vertical-scroll-proportion="-14.666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/notes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="63" selection-start="268" selection-end="268" vertical-scroll-proportion="0.026946107">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="282" selection-end="282" vertical-scroll-proportion="0.16167665">
@@ -631,37 +654,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/notes/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="398" selection-end="398" vertical-scroll-proportion="0.534375">
+        <state line="63" column="25" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/note.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="50" selection-end="50" vertical-scroll-proportion="0.026986506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="40" selection-end="57" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="141" selection-end="141" vertical-scroll-proportion="0.08144797">
+        <state line="4" column="50" selection-start="177" selection-end="177" vertical-scroll-proportion="-2.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/notes/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="461" selection-end="461" vertical-scroll-proportion="-12.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/notes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/notes/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="592" selection-end="731" vertical-scroll-proportion="-13.333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="240" selection-end="240" vertical-scroll-proportion="0.4047976">
           <folding />
         </state>
       </provider>

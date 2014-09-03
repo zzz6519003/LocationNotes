@@ -40,3 +40,5 @@ gem 'spring',        group: :development
 
 gem 'devise'
 gem 'leaflet-rails'
+gem 'acts-as-taggable-on'
+

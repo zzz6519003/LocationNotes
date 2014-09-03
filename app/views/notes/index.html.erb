@@ -16,6 +16,10 @@
         <td><%= note.user_id %></td>
         <td><%= note.title %></td>
         <td><%= note.content %></td>
+        <!--<td>Tags: <%= note.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></td>-->
+        <td>Tags: <%= raw note.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></td>
+
+
         <td><%= link_to 'Show', note %></td>
         <td><%= link_to 'Edit', edit_note_path(note) %></td>
         <td><%= link_to 'Destroy', note, method: :delete, data: { confirm: 'Are you sure?' } %></td>
