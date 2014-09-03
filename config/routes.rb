@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
 
+  get 'users/index'
+
   get 'static_pages/home'
 
   get 'static_pages/about'
