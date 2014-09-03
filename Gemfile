@@ -41,4 +41,7 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'leaflet-rails'
 gem 'acts-as-taggable-on'
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+end
 
