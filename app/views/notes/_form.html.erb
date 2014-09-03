@@ -10,7 +10,6 @@
           </ul>
         </div>
     <% end %>
-
     <div class="field">
       <%= f.label :title %><br>
       <%= f.text_field :title %>
@@ -19,7 +18,14 @@
       <%= f.label :content %><br>
       <%= f.text_field :content %>
     </div>
-
+    <div class="field">
+      <%= f.label :latitude %><br>
+      <%= f.text_field :latitude %>
+    </div>
+    <div class="field">
+      <%= f.label :longitude %><br>
+      <%= f.text_field :longitude %>
+    </div>
     <div class="field">
       <%= f.label :tag_list, "Tags (separated by commas)" %><br />
       <%= f.text_field :tag_list %>

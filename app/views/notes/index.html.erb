@@ -19,6 +19,8 @@
         <!--<td>Tags: <%= note.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></td>-->
         <td>Tags: <%= raw note.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></td>
 
+        <td><%= note.latitude %></td>
+        <td><%= note.longitude %></td>
 
         <td><%= link_to 'Show', note %></td>
         <td><%= link_to 'Edit', edit_note_path(note) %></td>

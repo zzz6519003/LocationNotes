@@ -1,6 +1,6 @@
 class NotesController < ApplicationController
   before_action :set_note, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, except: [:index, :show]
+  before_action :authenticate_user!
 
 
   # GET /notes
@@ -9,7 +9,7 @@ class NotesController < ApplicationController
     if params[:tag]
       @notes = Note.tagged_with(params[:tag])
     else
-      @notes = Note.all
+      @notes = current_user.notes
 
     end
   end
@@ -77,6 +77,6 @@ class NotesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def note_params
-      params.require(:note).permit(:title, :content, :tag_list)
+      params.require(:note).permit(:title, :content, :tag_list, :longitude, :latitude)
     end
 end
